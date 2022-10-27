@@ -1,7 +1,8 @@
 using Microsoft.AspNetCore.Mvc;
 using WebApplication1.Services;
+using WebApplication1.Services.LAB2;
 
-namespace WebApplication1.Controllers
+namespace WebApplication1.Controllers.LAB2
 {
     [ApiController]
     [Route("[controller]/[action]")]
