@@ -15,5 +15,9 @@
             var result = new Rectangle(a.Width + b.Width, a.Height + b.Height);
             return result.GetArea();
         }
+        public override int GetShorterSide()
+        {
+            return 456;
+        }
     }
 }
