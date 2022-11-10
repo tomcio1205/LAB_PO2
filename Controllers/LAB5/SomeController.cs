@@ -6,13 +6,14 @@ namespace WebApplication1.Controllers.LAB4
 {
     [ApiController]
     [Route("[controller]/[action]")]
-    public class LanguageController : ControllerBase
+    public class SomeController : ControllerBase
     {
         [HttpGet]
-        public string GetLang()
+        public string CallMethod()
         {
-            var lang = new Polish("pl");
-            return lang.getLang();
+            var someInstance = new SomeClass();
+            return someInstance.Print(null);
         }
     }
 }
+
